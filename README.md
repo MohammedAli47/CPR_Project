@@ -5,9 +5,14 @@ Cessation of blood flow to the brain and thus death of the patient due to the de
 
 ## Solution
 Our project will be a portable chest compressor that provides automatic chest compression and decompression CPR aimed to eliminate the problems of manual chest compression by:
-1. Providing appropriate ventilation to pump oxygenated blood to the brain through a ventilation circuit integratedinto the device
-2. Keeping the stabilization by setting parameters, such as compression time, ratio, rate, count, number of pauses and depth
-3. High safety due the characteristics developed in our projects that eliminate ribs fracture
+1. Providing appropriate ventilation to pump oxygenated blood to the brain through a ventilation circuit integratedinto the device.
+2. Keeping the stabilization by setting parameters, such as compression time, ratio, rate, count, number of pauses and depth.
+3. High safety due the characteristics developed in our projects that eliminate ribs fracture.
+
+## Software
+The Project works on two AtMega328P Microcontrollers and communicates between them and other components using `I2C Communication`. To test the project on your machine, you need to install the `Salva` Arduino Library which has a number of other famous Arduino Libraries (Links for all the used libraries will be provided).
+
+You can find the main Master and Slave programs inside the examples folder.
 
 For more details, visit our social media:
 
